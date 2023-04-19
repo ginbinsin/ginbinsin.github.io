@@ -1,0 +1,72 @@
+
+
+body {
+    background: #D3C6D9;
+    align-items: center;
+    font-family: F1Font;
+    color: #373736;
+    text-shadow: #373736be 1px 1px 12px;
+}
+
+.blockelement {
+
+    background: red;
+    position: relative;
+    margin: auto;
+    padding: 40px;
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+     text-align: center;
+
+}
+.blockelement > video {
+
+    position: absolute;
+
+}
+
+.blockelement > img {
+
+        position: absolute;
+        }
+
+
+.contact > span{
+    font-size: 21px;
+display: inline-block;
+width: 300px;
+height: 100px;
+}
+
+.contact {
+    margin-top: 100px;
+}
+
+.contact > span > div:nth-child(2){
+    width: 260px;
+    margin: auto;
+    border-bottom: 2px solid black;  
+      }
+
+
+      .exp > table{
+        font-size: 26px;
+        margin: 40px auto 40px auto;
+        text-align: left;
+          }
+
+          .exp > table > tr > th:nth-child(1){
+
+            background: blue;
+              }
+
+.panel{
+width: 1620px;
+margin: auto;
+height: 800px;
+
+}
+
+@font-face {
+    font-family: F1Font;
+    src: url(Formula1_Display_Regular.ttf);
+  } 
